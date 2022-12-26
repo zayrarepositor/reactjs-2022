@@ -1,0 +1,46 @@
+.task-container {
+  width: 500px;
+  min-height: 65px;
+  margin: 5px;
+  padding: 8px 15px 8px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+/* first */
+.task-container:nth-child(3n + 2) {
+  background-color: #bbae9f;
+}
+
+/* second */
+.task-container:nth-child(3n + 3) {
+  background-color: #b49471;
+}
+
+/* third */
+.task-container:nth-child(3n + 1) {
+  background-color: #b37f48;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.task-text {
+  width: 100%;
+  height: 100%;
+  font-size: 1.3em;
+  display: flex;
+  align-items: center;
+  overflow-wrap: anywhere;
+}
+
+.task-icon {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+}

@@ -1,0 +1,30 @@
+.add-button,
+.refresh-button {
+  width: 100px;
+  height: 50px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #aaaa73;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.add-button {
+  background-color: #341a0b;
+  border: 2px solid #291509;
+}
+
+.refresh-button {
+  background-color: #3b1225;
+  border: 2px solid #2f0f1e;
+}
+
+.add-button:hover,
+.refresh-button:hover {
+  background-color: #aaaa73;
+  border: 2px solid #939364;
+  color: #341a0b;
+}

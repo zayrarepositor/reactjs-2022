@@ -1,0 +1,23 @@
+.tasks {
+  min-height: 100vh;
+  background-color: #b49471;
+  padding: 0;
+  color: #462c0b;
+  padding-bottom: 50px;
+}
+
+.tasks-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tasks-title {
+  max-width: 940px;
+  font-size: 2.5em;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 40px 0;
+  text-align: center;
+}

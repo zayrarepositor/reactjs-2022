@@ -1,0 +1,15 @@
+.calculator-container {
+  min-width: 380px;
+  min-height: 580px;
+  padding: 10px 12px 10px 12px;
+  background-color: #e1e1ab;
+  border-radius: 20px;
+  border: 5px solid #a8a880;
+}
+
+.calculator-row {
+  margin: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

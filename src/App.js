@@ -1,24 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import BasicCalculator from './pages/BasicCalculator/BasicCalculator';
+import BasicTaskBoad from './pages/BasicTaskBoard/BasicTaskBoad';
+import Counter from './pages/Counter/Counter';
+import Painters from './pages/Painters/Painters';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BasicTaskBoad />
+      <BasicCalculator />
+      <Counter />
+      <Painters />
+    </>
   );
 }
 

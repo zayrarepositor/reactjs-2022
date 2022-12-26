@@ -1,0 +1,19 @@
+.counter-text {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin: 15px;
+}
+
+.counter-screen {
+  min-width: 200px;
+  height: 50px;
+  font-size: 35px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid #220a15;
+  margin-bottom: 15px;
+}

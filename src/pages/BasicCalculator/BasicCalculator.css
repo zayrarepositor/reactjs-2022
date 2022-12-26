@@ -1,0 +1,10 @@
+.calculator {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  padding: 10px;
+  background-color: #1b1b32;
+}
