@@ -19,7 +19,7 @@ jobs:
     defaults:
       run:
         shell: bash
-        working-directory: C:\Users\VelascoZayra\Documents\GitHub
+        working-directory: C:\Users\VelascoZayra\Documents\GitHub\reactjs-2022
     steps:
       - uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }}
@@ -27,13 +27,9 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Install dependencies
-        run: |
-          cd reactjs-2022
-          npm ci
+        run: npm ci
       - name: Build the app
-        run: |
-          cd reactjs-2022
-          npm run build
+        run: npm run build
       - name: Run component tests
         run: |
           cd reactjs-2022
