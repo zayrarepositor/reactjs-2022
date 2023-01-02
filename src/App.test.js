@@ -4,6 +4,12 @@ import App from './App';
 
 test('renders GitHub repository link', () => {
   render(<App />);
-  const linkElement = screen.getByText(/GitHub repository/i);
+  const linkElement = screen.getByTestId('home-link');
   expect(linkElement).toBeInTheDocument();
+});
+
+test('url is correct', () => {
+  render(<App />);
+  const linkElement = screen.getByTestId('home-link');
+  expect(linkElement.href).toContain('https://github.com/zayrarepositor');
 });

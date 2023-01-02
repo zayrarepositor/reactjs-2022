@@ -6,7 +6,14 @@ const Footer = () => {
       <p>Zayra Velasco Rosillo</p>
       <ul>
         <li>
-          <a href='https://github.com/zayrarepositor'>GitHub repository</a>
+          <a
+            href='https://github.com/zayrarepositor'
+            target='_blank'
+            rel='noopener noreferrer'
+            data-testid='home-link'
+          >
+            GitHub repository
+          </a>
         </li>
       </ul>
     </div>
