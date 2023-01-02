@@ -30,11 +30,7 @@ jobs:
       - name: Build the app
         run: npm run build
       - name: Run component tests
-        run: |
-          cd reactjs-2022
-          npm run tests
+        run: npm run tests
       - name: Start the app
-        run: |
-          cd reactjs-2022
-          npm Start &
+        run: npm Start &
           npx wait-on --timeout 60000
