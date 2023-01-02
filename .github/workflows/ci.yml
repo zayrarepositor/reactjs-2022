@@ -23,9 +23,13 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Install dependencies
-        run: npm ci
+        run: |
+          cd reactjs-2022
+          npm ci
       - name: Build the app
-        run: npm run build
+        run: |
+          cd reactjs-2022
+          npm run build
       - name: Run component tests
         run: |
           cd reactjs-2022
